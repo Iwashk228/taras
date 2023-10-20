@@ -1,0 +1,72 @@
+.karma-bar {
+  width: 200px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.karma-meter {
+  background-color: #ccc;
+  height: 20px;
+  width: 100%;
+}
+
+.karma-progress-red {
+  background-color: #ff0000;
+  width: 0%;
+}
+
+.karma-progress-green {
+  background-color: #00ff00;
+  width: 0%;
+}
+
+.karma-value {
+  font-size: 16px;
+  text-align: center;
+}
+
+.karma-buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.karma-button-minus {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.karma-button-plus {
+  background-color: #00ff00;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.karma-header {
+  text-align: center;
+  font-size: 24px;
+}
+
+.karma-numbers {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.karma-number-red {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+.karma-number-green {
+  color: #00ff00;
+  font-size: 12px;
+}
